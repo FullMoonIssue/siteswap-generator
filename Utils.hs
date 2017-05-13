@@ -1,5 +1,4 @@
 module Utils (digits, shift, joiner, allRotations, fillBegin, fillEnd, prepareValues, nonDuplicateSequence) where
-import Data.List (nub)
 
 -- Split an Int into a [Int]
 -- digits 123 = [1,2,3]
