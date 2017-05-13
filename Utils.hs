@@ -1,8 +1,6 @@
 module Utils (digits, shift, joiner, allRotations, fillBegin, fillEnd, prepareValues, nonDuplicateSequence) where
 
 -- Split an Int into a [Int]
--- digits 123 = [1,2,3]
--- !!! \x c'est une lamba function
 digits :: Int -> [Int]
 digits n = map (\x -> read [x] :: Int) (show n)
 
